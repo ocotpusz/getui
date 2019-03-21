@@ -16,9 +16,6 @@ Example:
                 'title' => '随便',
                 'content' => '你开心就好',
                 'id' => '你的id',
-                'merchant_name' => '泽明科技',
-                'big_cat' => '电视机',
-                'full_address' => '北京市海淀区五道口清华大学',
             ];
 
  

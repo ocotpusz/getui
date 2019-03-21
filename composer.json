@@ -1,5 +1,5 @@
 {
-  "name": "cotopus/getui",
+  "name": "octopus/getui",
   "description": "适用于laravel和lumen框架的个推push推送服务包",
   "type": "library",
   "require": {
