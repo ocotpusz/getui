@@ -1,0 +1,40 @@
+{
+  "name": "cotopus/getui",
+  "description": "适用于laravel和lumen框架的个推push推送服务包",
+  "type": "library",
+  "require": {
+    "laravel/framework": "~5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.3",
+    "mockery/mockery": "^0.9.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ocotpus\\GeTui\\": "./src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ocotpus\\GeTui\\Test\\": "./test/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ocotpus",
+      "email": "octopusz@yeah.net"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ocotpus\\GeTui\\GeTuiServiceProvider"
+      ],
+      "aliases": {
+        "GeTui": "Ocotpus\\GeTui\\Facade\\GeTui"
+      }
+    }
+  },
+  "minimum-stability":"dev"
+}
