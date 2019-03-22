@@ -9,7 +9,7 @@
 namespace Ocotpus\GeTui\Facade;
 
 use Illuminate\Support\Facades\Facade;
-use Octopus\GeTui\GeTuiService;
+use Ocotpus\GeTui\GeTuiService;
 
 /**
  * Class GeTui
