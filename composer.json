@@ -1,6 +1,6 @@
 {
-  "name": "octopus/getui",
-  "description": "适用于laravel和lumen框架的个推push推送服务包",
+  "name": "octopusz/getui",
+  "description": "基于laravel和lumen框架的个推push推送包",
   "type": "library",
   "require": {
     "laravel/framework": "~5.4"
